@@ -15,11 +15,28 @@
     "sectionHeading": {
       "type": "richtext"
     },
-    "productCard": {
-      "displayName": "Product-Card",
-      "type": "component",
-      "repeatable": true,
-      "component": "products.product-card"
+    "productImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "productTitle": {
+      "type": "richtext"
+    },
+    "productDescription": {
+      "type": "richtext"
+    },
+    "productPrice": {
+      "type": "richtext"
+    },
+    "buttonText": {
+      "type": "richtext"
     }
   }
 }

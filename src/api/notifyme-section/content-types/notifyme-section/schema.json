@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "notifyme_sections",
+  "info": {
+    "singularName": "notifyme-section",
+    "pluralName": "notifyme-sections",
+    "displayName": "Notifyme-Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notifymeSectionImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "sectionHeading": {
+      "type": "richtext"
+    },
+    "sectionSubHeading": {
+      "type": "richtext"
+    },
+    "buttonText": {
+      "type": "richtext"
+    }
+  }
+}
